@@ -18,3 +18,4 @@ COPY --from=build C:\\source\\webapp\\bin\\Debug\\net5.0 /app
 EXPOSE 5001
 ENV ASPNETCORE_URLS=http://*:5001
 ENTRYPOINT ["dotnet", "myWebApp.dll"]
+
